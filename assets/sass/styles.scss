@@ -1,0 +1,124 @@
+
+/*body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9b9b9b;
+    color: #000000;
+
+
+} 
+
+h1{
+    color: #030303; 
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+    
+}
+
+ul {
+    list-style: none;
+    padding: 2em;
+    display: flex;
+  list-style: none;
+  gap: 20px; /* Espacio entre elementos */
+$primary-color: #6366f1;    // Un índigo moderno
+$secondary-color: #1e293b;  // Azul oscuro casi negro
+$text-light: #64748b;
+$bg-color: #f8fafc;
+$white: #ffffff;
+$transition: all 0.3s ease;
+
+body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: $bg-color;
+    color: $secondary-color;
+    line-height: 1.6; }
+
+h1 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin: 60px 0 20px;
+    letter-spacing: -2px;
+    background: linear-gradient(to right, $primary-color, #a855f7);
+    -webkit-background-clip: text; 
+    -webkit-text-fill-color: transparent;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px); // Efecto vidrio esmerilado
+    padding: 15px 30px;
+    border-radius: 50px;
+    width: fit-content;
+    margin: 0 auto 40px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    position: sticky;
+    top: 20px;
+    z-index: 100;
+
+    li a {
+        text-decoration: none;
+        color: $secondary-color;
+        font-weight: 600;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        transition: $transition;
+
+        &:hover {
+            color: $primary-color;
+        }
+    }
+}
+
+    section {
+    max-width: 800px;
+    margin: 0 auto 60px;
+    padding: 0 20px;
+
+    h2 { // Para "SOBRE MI", "PROYECTOS", etc.
+        font-size: 1.5rem;
+        border-bottom: 2px solid $primary-color;
+        width: fit-content;
+        margin-bottom: 20px;
+        color: $secondary-color;
+    }
+
+    p {
+        color: $text-light;
+        font-size: 1.1rem;
+    }
+}
+
+// Estilo para los botones de Proyectos
+.project-links {
+    display: flex;
+    gap: 15px;
+    
+    a {
+        background: $secondary-color;
+        color: $white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        transition: $transition;
+
+        &:hover {
+            background: $primary-color;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+        }
+    }
+}
+

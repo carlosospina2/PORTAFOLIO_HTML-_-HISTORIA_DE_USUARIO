@@ -1,0 +1,111 @@
+/*body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9b9b9b;
+    color: #000000;
+
+
+} 
+
+h1{
+    color: #030303; 
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1)
+
+}
+
+ul {
+    list-style: none;
+    padding: 2em;
+    display: flex;
+  list-style: none;
+  gap: 20px; /* Espacio entre elementos */
+body {
+  margin: 0;
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  background-color: #f8fafc;
+  color: #1e293b;
+  line-height: 1.6;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 60px 0 20px;
+  letter-spacing: -2px;
+  background: linear-gradient(to right, #6366f1, #a855f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  padding: 15px 30px;
+  border-radius: 50px;
+  width: fit-content;
+  margin: 0 auto 40px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 20px;
+  z-index: 100;
+}
+ul li a {
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+ul li a:hover {
+  color: #6366f1;
+}
+
+section {
+  max-width: 800px;
+  margin: 0 auto 60px;
+  padding: 0 20px;
+}
+section h2 {
+  font-size: 1.5rem;
+  border-bottom: 2px solid #6366f1;
+  width: fit-content;
+  margin-bottom: 20px;
+  color: #1e293b;
+}
+section p {
+  color: #64748b;
+  font-size: 1.1rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+.project-links a {
+  background: #1e293b;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+.project-links a:hover {
+  background: #6366f1;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(99, 102, 241, 0.2);
+}
+
+/*# sourceMappingURL=styles.css.map */
