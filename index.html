@@ -1,63 +1,85 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    
     <title>CARLITOS</title>
 </head>
-<header>
-
-    
-      <h1>CARLOS ANDRES </h1>
-        <nav>
+<body>
+    <!-- Encabezado con presentacion y accesos principales -->
+    <header class="encabezado">
+        <div class="marca">
+            <p class="sello">Mi espacio personal</p>
+            <h1>CARLOS ANDRES</h1>
+        </div>
+        <nav class="menu">
             <ul>
-                <li><a href="#SOBRE MI">SOBRE MI</a></li>
-                <li><a href="#PROYECTOS">PROYECTOS</a></li>
-                <li><a href="#CONTACTO">CONTACTO</a></li>
-                <li><a href="mascotas.html">MASCOTAS</a></li>
-            </ul>        
+                <li><a href="#perfil">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="mascotas.html">Mascotas</a></li>
+            </ul>
         </nav>
-        </header>
+    </header>
 
-        <body>
-            <nav>
-                <section id="SOBRE MI"></section>
-                <h2>SOBRE MI</h2>
-                <p>Hola soy Carlos Andres, tengo 26 años de edad soy una persona proactiva muy enfocada en mis proyectos, siempre trato de dar lo mejor de mi, estoy en un entrenamiento intensivo en RIWI, en cuanto salgo de mi horario de estudio salgo a trabajar como domiciario. </p>
-            </nav>
+    <main class="contenido">
+        <!-- Seccion principal con informacion personal -->
+        <section id="perfil" class="bloque perfil">
+            <h2>Sobre mi</h2>
+            <p id="texto-perfil">
+                Hola, soy Carlos Andres. Tengo 26 anos y soy una persona proactiva, muy enfocada en mis
+                proyectos. Siempre trato de dar lo mejor de mi. Estoy en un entrenamiento intensivo en
+                RIWI y, al salir de mi horario de estudio, trabajo como domiciliario.
+            </p>
+            <div class="botones">
+                <button type="button" class="boton" id="boton-historia">Cambiar historia</button>
+                <button type="button" class="boton boton-suave" id="boton-detalle">Mostrar detalle</button>
+            </div>
+            <p class="detalle oculto" id="texto-extra">
+                Cada meta que me propongo la trabajo con disciplina, constancia y muchas ganas de seguir aprendiendo.
+            </p>
+        </section>
 
-            <nav>
-                <section id="PROYECTOS"></section>
-                <h2>PROYECTOS</h2>
-                <ul>
-                    <li><a href="https://github.com/carlosospina2">GIT HUB PERSONAL</a></li>
-                    <li><a href="https://moodle.riwi.io/mod/page/view.php?id=6146">MOODLE DE RIWI</a></li>
-                </ul>
+        <!-- Bloque con enlaces a proyectos y espacios del portafolio -->
+        <section id="proyectos" class="bloque proyectos">
+            <h2>Proyectos</h2>
+            <div class="cuadricula">
+                <article class="tarjeta destacada">
+                    <h3>GitHub personal</h3>
+                    <p>Repositorio principal para practicar HTML, CSS y seguir construyendo el portafolio.</p>
+                    <a href="https://github.com/carlosospina2">Visitar perfil</a>
+                </article>
 
-                <nav>
-                    <section id="CONTACTO"></section>
-                    <form class="FORMULARIO">
-                    <h2>CONTACTO</h2> 
+                <article class="tarjeta lateral">
+                    <h3>Moodle de RIWI</h3>
+                    <p>Espacio de estudio con actividades, entregas y recursos del entrenamiento intensivo.</p>
+                    <a href="https://moodle.riwi.io/mod/page/view.php?id=6146">Ir a Moodle</a>
+                </article>
 
-                    <div class=""></div>
-                    <label for="correo">correo electronico:</label>
-                    <input type="email" id="correo" name=" correo"  required>
+                <article class="tarjeta lateral">
+                    <h3>Galeria de mascotas</h3>
+                    <p>Un rincón especial con fotos y momentos de mis perros, llenos de energia y compañia.</p>
+                    <a href="mascotas.html">Ver galeria</a>
+                </article>
+            </div>
+            <p class="aviso" id="mensaje-bienvenida" aria-live="polite"></p>
+        </section>
 
-                    <button type="submit">Ingresar </button>
+        <!-- Formulario sencillo de contacto -->
+        <section id="contacto" class="bloque contacto">
+            <h2>Contacto</h2>
+            <form class="formulario">
+                <label for="correo">Correo electronico:</label>
+                <input type="email" id="correo" name="correo" required>
 
-                      <label for="contraseña">contraseña:</label>
-                      <input type="password" id="contraseña" name=" contraseña" required> 
+                <label for="contrasena">Contrasena:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
 
-                      <button type="submit">Ingresar contraseña</button>
-                    </form>
-                 </nav>
-         
-        
-        <nav>
-            <section id="MASCOTAS"></section>
-        </header>
-    
+                <button type="submit">Ingresar</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

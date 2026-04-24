@@ -1,34 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <title>Document</title>
+    <title>Mascotas</title>
 </head>
-<body class="mascotas_body">
-    <header>
-        <h1>MIS MASCOTAS</h1>
-               
-        <nav>
-            <section id="MASCOTAS"></section>
-            <div class="mascotas">
-                <img src="./pitbul.jpeg" alt=""> <h2> Rocky</h2> <article>
-                    <p> Rocky es un perro de raza pitbull bully muy juguetón y le gusta correr en el parque,
-                     es inofensivo y se comporta muy bien.</p>
-                    </article>
-               
-                <img src="./pitgris.jpeg" alt=""> <h2>Tyrone y Ceus</h2> <article>
-                    <p> Tyrone y Ceus son  dos perros de raza pitbull blue son muy lindos y de ojos azules, son unos perros muy atleticos, leales
-                        energeticos y juguetones, les gusta correr por todas partesy jugar con otros perros.</p>
-                    </article>
-                <img src="./cachorro-de-perro-pitbull.jpg" alt=""> <h2>Jeyko</h2> <article>
-                    <p> Jeyko es un cachorro de pitbull, hijo de una perra de la misma raza, de un amigo el cual me dono es muy tierno y jugueton, le gusta jugar con sus juguetes y correr por toda la casa, es muy cariñoso y le gusta estar con su familia.</p>
-                    </article>
-            </div> 
-
-            <a href="index.html">Volver</a>
+<body class="pagina-mascotas">
+    <!-- Encabezado de la galeria con accesos rapidos -->
+    <header class="encabezado encabezado-mascotas">
+        <div class="marca">
+            <p class="sello">Galeria</p>
+            <h1>Mis Mascotas</h1>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#huellas">Huella viva</a></li>
+                <li><a href="#mundo">Mundo canino</a></li>
+            </ul>
+        </nav>
     </header>
-    
+
+    <main class="contenido mascotas">
+        <!-- Introduccion corta sobre la galeria -->
+        <section class="bloque intro">
+            <h2>Companeros de cuatro patas</h2>
+            <p>
+                Aqui reuni algunos momentos de Rocky, Tyrone, Ceus y Jeyko, cada uno con su propia
+                energia, su forma de jugar y esa compania que siempre alegra cualquier dia.
+            </p>
+        </section>
+
+        <!-- Galeria principal con tarjetas en filas flexibles -->
+        <section id="huellas" class="bloque">
+            <h2>Huellas en movimiento</h2>
+            <div class="galeria">
+                <article class="ficha">
+                    <img src="./pitbul.jpeg" alt="Rocky, pitbull bully en el parque">
+                    <h3>Rocky</h3>
+                    <p>Muy jugueton, corre en el parque y siempre esta listo para jugar.</p>
+                </article>
+                <article class="ficha">
+                    <img src="./pitgris.jpeg" alt="Tyrone y Ceus, pitbull blue de ojos claros">
+                    <h3>Tyrone y Ceus</h3>
+                    <p>Dos perros atleticos, leales y con mucha energia para correr por todas partes.</p>
+                </article>
+                <article class="ficha">
+                    <img src="./cachorro-de-perro-pitbull.jpg" alt="Jeyko, cachorro pitbull descansando">
+                    <h3>Jeyko</h3>
+                    <p>Es un cachorro tierno, curioso y muy carinoso con su familia.</p>
+                </article>
+                <article class="ficha">
+                    <img src="./pitbul.jpeg" alt="Rocky mirando a la camara">
+                    <h3>Rocky en accion</h3>
+                    <p>Una version mas activa de Rocky para completar la fila flexible.</p>
+                </article>
+                <article class="ficha">
+                    <img src="./pitgris.jpeg" alt="Tyrone y Ceus descansando juntos">
+                    <h3>Descanso en manada</h3>
+                    <p>Cuando terminan de jugar, tambien saben relajarse y acompanarse.</p>
+                </article>
+                <article class="ficha">
+                    <img src="./cachorro-de-perro-pitbull.jpg" alt="Jeyko jugando con energia">
+                    <h3>Jeyko jugueton</h3>
+                    <p>Le encantan sus juguetes y correr por la casa con mucha energia.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Mosaico con una distribucion visual diferente -->
+        <section id="mundo" class="bloque">
+            <h2>Universo de patas</h2>
+            <div class="mosaico">
+                <article class="pieza ancho">
+                    <img src="./pitbul.jpeg" alt="Rocky en una tarjeta grande del mosaico">
+                    <div class="texto">
+                        <h3>Rocky inolvidable</h3>
+                        <p>Siempre se roba la atencion con su fuerza, su carisma y esa mirada tan noble.</p>
+                    </div>
+                </article>
+                <article class="pieza">
+                    <img src="./pitgris.jpeg" alt="Tyrone y Ceus en el mosaico">
+                    <div class="texto">
+                        <h3>Tyrone y Ceus</h3>
+                    </div>
+                </article>
+                <article class="pieza">
+                    <img src="./cachorro-de-perro-pitbull.jpg" alt="Jeyko en el mosaico">
+                    <div class="texto">
+                        <h3>Jeyko</h3>
+                    </div>
+                </article>
+                <article class="pieza">
+                    <img src="./pitbul.jpeg" alt="Rocky repetido para completar el mosaico">
+                    <div class="texto">
+                        <h3>Rocky</h3>
+                    </div>
+                </article>
+                <article class="pieza alto">
+                    <img src="./pitgris.jpeg" alt="Tyrone y Ceus en una tarjeta alta">
+                    <div class="texto">
+                        <h3>Complicidad total</h3>
+                        <p>Cuando estan juntos transmiten energia, lealtad y una conexion que se nota al instante.</p>
+                    </div>
+                </article>
+                <article class="pieza">
+                    <img src="./cachorro-de-perro-pitbull.jpg" alt="Jeyko cerrando el mosaico">
+                    <div class="texto">
+                        <h3>Ternura que conquista</h3>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
 </body>
 </html>

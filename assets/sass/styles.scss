@@ -39,14 +39,15 @@ body {
     line-height: 1.6; }
 
 h1 {
-    font-size: 3.5rem;
-    font-weight: 800;
-    text-align: center;
-    margin: 60px 0 20px;
-    letter-spacing: -2px;
-    background: linear-gradient(to right, $primary-color, #a855f7);
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  font-weight: 800;
+  text-align: center;
+  margin: 60px 0 20px;
+  letter-spacing: -2px;
+  background: linear-gradient(to right, $primary-color, #a855f7);
+  -webkit-background-clip: text; 
+  background-clip: text;         
+  -webkit-text-fill-color: transparent;
 }
 
 ul {
@@ -81,12 +82,14 @@ ul {
     }
 }
 
+section {
     section {
     max-width: 800px;
     margin: 0 auto 60px;
     padding: 0 20px;
 
     h2 { // Para "SOBRE MI", "PROYECTOS", etc.
+       
         font-size: 1.5rem;
         border-bottom: 2px solid $primary-color;
         width: fit-content;
@@ -121,4 +124,8 @@ ul {
         }
     }
 }
+}
 
+html {
+    margin : 15px
+}
